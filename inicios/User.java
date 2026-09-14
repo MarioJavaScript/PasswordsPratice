@@ -3,6 +3,7 @@ public class User{
     private String username;
     private String email;
     private String Password;
+    public  int ampt = 0;
 
     public User(String username, String email, String Password){ //Constructor
         this.username = username;
